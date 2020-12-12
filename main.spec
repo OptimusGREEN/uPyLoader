@@ -42,7 +42,7 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas,
-          name='uPyLoader',
+          name='uPyLoaderOM',
           debug=False,
           strip=False,
           upx=False,
@@ -50,6 +50,6 @@ exe = EXE(pyz,
           icon='icons//main.ico' )
 
 app = BUNDLE(exe,
-             name='uPyLoader.app',
+             name='uPyLoaderOM.app',
              icon='icons//main-512.icns',
              bundle_identifier=None)

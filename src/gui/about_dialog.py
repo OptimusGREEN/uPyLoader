@@ -12,5 +12,5 @@ class AboutDialog(QDialog, Ui_AboutDialog):
         self.setupUi(self)
         self.setModal(True)
         self.setSizeGripEnabled(False)
-        self.versionLabel.setText(Versioning.get_version_string())
+        self.versionLabel.setText(Versioning.get_version_string()+" OptiMOD")
         self.buildDateLabel.setText(BuildInfo().build_date)
