@@ -183,7 +183,7 @@ class WifiConnection(Connection):
 
         while True:
             # Confirm message
-            self.ws.write(b"\1", True)
+            self.ws.write(b"\0", True)
             (sz,) = struct.unpack("<H", self.ws.read(2))
             if sz == 0:
                 break
