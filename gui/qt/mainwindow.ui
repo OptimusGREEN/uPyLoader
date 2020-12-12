@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>uPyLoader</string>
+   <string>uPyLoader (OptiMOD)</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -577,7 +577,7 @@
   </action>
   <action name="actionAbout">
    <property name="text">
-    <string>About uPyLoader</string>
+    <string>About uPyLoaderOM</string>
    </property>
   </action>
  </widget>
